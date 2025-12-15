@@ -4,8 +4,7 @@ class Solution {
         int sum=0;
         if (x<0) return false;
         while(temp!=0){
-            int digit = temp%10;
-            sum=sum*10+digit;
+            sum=sum*10+(temp%10);
             temp=temp/10;
         }
         return x==sum;
