@@ -7,7 +7,7 @@ class Solution {
             sum = sum+temp;
             n=n/10;
         } 
-        int count=multi-sum;
-        return count;   
+
+        return multi-sum;   
     }
 }
